@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>ColorBox demo</title>
+    <link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" />
+  </head>
+  <body>
+     <link href="http://www.sspmcoe.ac.in" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+    <script>
+      function openColorBox(){
+        $.colorbox({iframe:true, width:"80%", height:"80%", href: "http://www.sspmcoe.ac.in/autopop/seminar.html"});
+      }
+      
+      setTimeout(openColorBox, 5000);
+    </script>
+  </body>
+</html>
